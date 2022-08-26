@@ -8,6 +8,7 @@
  * Return: a pointer to the new root node of the tree after removal
  *         NULL on failure
  */
+
 avl_t *avl_remove(avl_t *root, int value)
 {
 

@@ -14,8 +14,3 @@ int binary_tree_is_heap(const binary_tree_t *tree)
 		return (0);
 	return (btih_helper(tree));
 }
-
-/**
- * btih_helper - checks if a binary tree is a valid Max Binary Heap
- * @tree: a pointer to the root node of the tree to check
- *
